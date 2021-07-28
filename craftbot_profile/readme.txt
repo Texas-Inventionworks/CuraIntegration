@@ -12,4 +12,8 @@ C:\Program Files\Cura 2.9\resources\images
 
 If have Mac:
 
-Copy to Applications->Cura->ShowPackageContents->Contents->Resources->resources->same files as specified above
+Copy to Applications->right click on Cura->ShowPackageContents->Contents->Resources->resources->same files as specified above
+
+Both:
+(In Cura application)
+Settings/Preferences-> Materials-> Import-> Choose PLA and PETG profile in "Filaments" folder
