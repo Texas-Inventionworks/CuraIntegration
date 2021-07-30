@@ -1,12 +1,15 @@
 If have inferior computers:
 
-Copy the .json file to:
+Copy the .json files (except extruder) to:
 C:\Program Files\Cura 2.9\resources\definitions
+
+Copy the .json files (extruder) to:
+C:\Program Files\Cura 2.9\resources\extruders
 
 Copy the .obj and .mtl files to:
 C:\Program Files\Cura 2.9\resources\meshes
 
-Copy the .png file to:
+Copy the .png files to:
 C:\Program Files\Cura 2.9\resources\images
 
 

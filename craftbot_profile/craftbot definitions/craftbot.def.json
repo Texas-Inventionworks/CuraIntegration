@@ -14,7 +14,10 @@
 		"platform": "craftbot_platform.obj",
         "platform_offset": [0, 0, 0],
         "has_materials": true,
-		"weight": 3
+		"weight": 3,
+		"machine_extruder_trains": {
+            "0": "craftbot_extruder_0"
+        }
 		
     },
 
@@ -35,18 +38,14 @@
         "machine_center_is_zero": {
             "default_value": false
         },
-        "machine_nozzle_size": {
-            "default_value": 0.4
-        },
-        "material_diameter": {
-            "default_value": 1.75
-        },
         "machine_nozzle_heat_up_speed": {
             "default_value": 2
         },
         "machine_nozzle_cool_down_speed": {
             "default_value": 2
         },
+        "machine_nozzle_size": { "default_value": 0.4 },
+        "material_diameter": { "default_value": 1.75 },
 		"wall_thickness": {
 			"default_value": 1.0, "visible": false
 		},
