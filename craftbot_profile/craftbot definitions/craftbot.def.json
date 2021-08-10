@@ -118,7 +118,7 @@
 			"default_value": "; -- START GCODE -- \nM4002 P1 ;set heat program 1 \nM1203 A88 D66 F1200 ;set higher accel and decel \nG28 X0 Y0 ;home XY \nG28 Z0 ;home Z\nG91 ;set relative movements \nG0 F100 ;speed 100mm/sec \nG0 E20 ;extrude 20mm of filament\nG90 ;absolute movements \n; -- end of START GCODE --" 
         },
         "machine_end_gcode": {
-			"default_value": "; -- END GCODE -- G91 ;set to relative positioning\nG0 Z5 F2400; lift Z 5mm\nG1 E-20 F300 ;retract filament to release pressure\nG90 ;set to absolute positioning\nG28 X Y; home horizontally\nM104 S0 ;turn off hotend\nM140 S0 ;turn off bed\nM106 S0 ;turn off fan\n; -- end of END GCODE --"
+			"default_value": "; -- END GCODE -- \nG91 ;set to relative positioning\nG0 Z5 F2400; lift Z 5mm\nG1 E-20 F300 ;retract filament to release pressure\nG90 ;set to absolute positioning\nG28 X Y; home horizontally\nM104 S0 ;turn off hotend\nM140 S0 ;turn off bed\nM106 S0 ;turn off fan\n; -- end of END GCODE --"
         }
     }
 }
